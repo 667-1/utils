@@ -1,6 +1,6 @@
-const fs = require('fs');
+import * as fs from 'fs';
 
-const path = require('path');
+import * as path from 'path';
 
 const checkList = ['png', 'gif', 'svg', 'jpg'];
 
@@ -54,4 +54,4 @@ function start(route) {
   }
 }
 
-start('./');
+start('/Users/fengli/Bdy/ds_shopadmin_pc/admin');
